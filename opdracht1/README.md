@@ -48,4 +48,7 @@ Website live on: http://suuscharlotte.nl/MAPPEN/wafs/#home
 
 ***
 
-#### Screenreader.
+#### Screenreader
+* meer tekst toevoegen om het ook voor mensen met een screenreader duidelijk maken wat er gebeurd
+* Afbeeldingen een omschrijving meegeven inplaats van de URL te benoemen
+* Detail pagina content kunnen lezen
