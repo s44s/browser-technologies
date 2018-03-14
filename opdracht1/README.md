@@ -12,7 +12,7 @@ Website live on: http://suuscharlotte.nl/MAPPEN/wafs/#home
 #### Afbeeldingen
 Mijn WAFS app heeft album foto's en artiesten foto's. Deze zijn puur om de website wat aantrekkelijker te maken. De afbeeldingen bevatten geen content die gemist wordt zodra je afbeeldingen uitzet. De images nemen de meeste ruimte in op mijn site (1.3MB)
 
-![alt text](https://github.com/s44s/wafs/blob/week2/app/static/img/screen4.png "Screen")
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht1/static/img/screen4.png "Screen")
 
 Omdat de afbeeldingen binnen komen via de API request heb ik geen invloed op het soort formaat van de image. Ik kan hem bijvoorbeeld niet omzetten naar .webp. Ook een tool als ImageOptim komt hier niet van pas.
 
