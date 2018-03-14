@@ -7,26 +7,26 @@ Hoe zit het eigenlijk met Progressive Enhancement van mijn WAFS opdracht? Daar k
 
 Schrijf een Readme met een beschrijving van de problemen die je hebt gevonden, hoe je die hebt opgelost, of hoe je dit zou oplossen (met todo’s) als je genoeg tijd en budget zou hebben
 
-####Afbeeldingen
+#### Afbeeldingen
 
-####Custom fonts
+#### Custom fonts
 
-####Javascript
+#### Javascript
 
-####Kleur
+#### Kleur
 
-####Breedband internet
+#### Breedband internet
 
-####Cookies
+#### Cookies
 
-####Local Storage
+#### Local Storage
 
-####Muis/Trackpad disabled
-
-***
-
-####Testen in het device lab
+#### Muis/Trackpad disabled
 
 ***
 
-####Screenreader.
+#### Testen in het device lab
+
+***
+
+#### Screenreader.
