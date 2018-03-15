@@ -36,8 +36,12 @@ Op dit moment gebruikt de site één custom font. Hier is ook een fallback voor 
 * Gebruik geen kleuren hierarchie, of gebruik hier een label bij
 
 #### Breedband internet
+Een performance budget is niet van toepassing op dit moment. De grootste 'boosdoener' zijn de afbeeldinen, waar ik niks aan kan doen aangezien ik ze niet zelf inlaad via HTML of CSS.
+
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht1/static/img/screen5.png "Screen")
+
+Nog doen:
 * Testen op slechtere internetverbindingen > hoe laadt alles in? Hoe kan dit beter?
-* Performance budget niet van toepassingen
 
 #### Cookies
 Daar maakt deze app op het moment geen gebruik van en dus ook niet van toepassing om dat momenteel te gaan testen.
