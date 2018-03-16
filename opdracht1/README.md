@@ -37,16 +37,22 @@ Javascript is van groot belang bij mijn applicatie, er wordt praktisch geen data
 * Modules ES6 wordt niet ondersteund door Safari & Firefox. Ik heb daarom voor nu de modules weg gehaal en 1 script in laten laden. Wanneer mijn script groter wordt zou ik ervoor kunnen kiezen om modulair in te laden met ES5.
 
 #### 4. Kleur
+Op mijn site gebruik ik weinig kleuren aangezien de afbeeldingen die ik gebruik behoorlijk kleurrijk (kunnen) zijn. De tekstvelden zijn wit en de hover is vaak zwart. Ik heb het getest met de Chrome extenstion (I want to see like the colour blind), dit heeft niet voor problemen gezorgd.
+
+Best practices:
 * Zorg voor een goed contrast
 * Gebruik geen kleuren hierarchie, of gebruik hier een label bij
+* Laat de betekenis van kleuren (bijv: rood = gevaar) niet bepalend zijn voor een bepaald element. Geef daar ook een beschrijving bij als dat gedaan wordt. Zodat ook mensen die de kleur niet/slecht kunnen zien ook begrijpen wat er bedoeld wordt.
 
 #### 5. Breedband internet
 Een performance budget is niet van toepassing op dit moment. De grootste 'boosdoener' zijn de afbeeldinen, waar ik niks aan kan doen aangezien ik ze niet zelf inlaad via HTML of CSS.
 
 ![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht1/static/img/screen5.png "Screen")
 
-Nog doen:
-* Testen op slechtere internetverbindingen > hoe laadt alles in? Hoe kan dit beter?
+Daarnaast heb ik ook de site getest op een slectere internetverbinding (slow 3G). De totale load tijd kwam uit op 11.40sec. Punten die ik kan verbeteren om de performance beter te krijgen:
+* logo.png neemt meer tijd in beslag dan nodig, deze afbeelding kan ik compressen. Dit geldt hetzelfde voor loader.gif
+* Transparency.min.js laadt mogelijk meer in dan nodig als library. Kan dit anders opgelost worden? Dit geldt hetzelfde voor routie.js
+* Het JS bestand app.js zou ik kunnen minifyen
 
 #### 6. Cookies
 Daar maakt deze app op het moment geen gebruik van en dus ook niet van toepassing om dat momenteel te gaan testen.
