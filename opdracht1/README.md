@@ -78,3 +78,4 @@ Allereerst heb ik de screenreader (voor het eerst) gebruikt, wat ik nog niet zo 
 * Meer inhoudelijke content (tekst) toevoegen om het ook voor mensen met een screenreader duidelijk te maken wat er op deze site gedaan kan worden.
 * Afbeeldingen een omschrijving meegeven inplaats van de URL te benoemen (kan dit?)
 * Detail pagina content kunnen lezen. Wanneer je nu doorgaat naar een detailpagina loopt hij vast. Hij kan geen details voorlezen over dat specifieke nummer.
+* Daarnaast heb ik zowel Engelse als Nederlandse teksten door elkaar gehaald. Dit gaat fout met de screenreader.
