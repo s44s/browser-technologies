@@ -80,4 +80,4 @@ Allereerst heb ik de screenreader (voor het eerst) gebruikt, wat ik nog niet zo 
 * Detail pagina content kunnen lezen. Wanneer je nu doorgaat naar een detailpagina loopt hij vast. Hij kan geen details voorlezen over dat specifieke nummer.
 * Daarnaast heb ik zowel Engelse als Nederlandse teksten door elkaar gehaald. Dit gaat fout met de screenreader.
 
-![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht1/static/img/screanreader.png "Screen")
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht1/static/img/screenreader.png "Screen")
