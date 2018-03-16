@@ -9,33 +9,39 @@ Schrijf een Readme met een beschrijving van de problemen die je hebt gevonden, h
 
 Website live on: http://suuscharlotte.nl/MAPPEN/wafs/#home
 
-#### Afbeeldingen
+#### 1. Afbeeldingen
 Mijn WAFS app heeft album foto's en artiesten foto's. Deze zijn puur om de website wat aantrekkelijker te maken. De afbeeldingen bevatten geen content die gemist wordt zodra je afbeeldingen uitzet. De images nemen de meeste ruimte in op mijn site (1.3MB)
 
 ![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht1/static/img/screen4.png "Screen")
 
+Daarnaast heb ik door middel van de chrome extension 'Block Image' afbeeldingen uitgezet. Dit komt er behoorlijk raar uit te zien. De website wordt er niet minder bruikbaar door, maar de styling klopt niet meer. De reden hiervoor heb ik nog niet kunnen ontdekken..
+
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht1/static/img/img.png "Screen")
+
 Omdat de afbeeldingen binnen komen via de API request heb ik geen invloed op het soort formaat van de image. Ik kan hem bijvoorbeeld niet omzetten naar .webp. Ook een tool als ImageOptim komt hier niet van pas.
 
-* Alt tag juist stylen zodat de site er niet hacky uitziet als afbeeldingen uit staan.
+De alt tag stylen zou een optie zijn, maar dit voegt niet veel toe aan het begrijpen van de content van de pagina. De afbeelding bevatten geen belangrijke content.
 
-#### Custom fonts
-Op dit moment gebruikt de site één custom font. Hier is ook een fallback voor geschreven. Icon fonts zijn niet in deze site gebruikt. Best practices voor custom fonts:
-* Icon fonts vervangen voor SVG
-* Font subsetting https://www.fontsquirrel.com/tools/webfont-generator
-* Fallback juist vormgeven (https://github.com/bramstein/fontfaceobserver or font-display)
-* Only .woff and .woff2 as format
+#### 2. Custom fonts
+Op dit moment gebruikt de site één custom font. Hier is ook een fallback voor geschreven. Icon fonts zijn niet in deze site gebruikt. Ik heb getest met het disabelen van custom fonts en de pagina werkt. Er vallen geen dingen weg. Per browser is het verschillend hoe het font eruit komt te zien. Dit komt door de systemfonts die als fallback staan opgegeven in de browsers.
 
-#### Javascript
+Best practices voor custom fonts:
+* Icon fonts vervangen voor SVG.
+* Font subsetting https://www.fontsquirrel.com/tools/webfont-generator.
+* Fallback gebruiken en die juist vormgeven (https://github.com/bramstein/fontfaceobserver or font-display).
+* Only .woff and .woff2 als format om de load pagina niet lager te maken dan nodig.
+
+#### 3. Javascript
 * Minify Javascript
 * Javascript alleen gebruiken om data in te laden, geen CSS style:none bijvoorbeeld
 * URLSearchParams wordt niet ondersteund door Safari
 * Modules wordt niet ondersteund door Safari & Firefox
 
-#### Kleur
+#### 4. Kleur
 * Zorg voor een goed contrast
 * Gebruik geen kleuren hierarchie, of gebruik hier een label bij
 
-#### Breedband internet
+#### 5. Breedband internet
 Een performance budget is niet van toepassing op dit moment. De grootste 'boosdoener' zijn de afbeeldinen, waar ik niks aan kan doen aangezien ik ze niet zelf inlaad via HTML of CSS.
 
 ![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht1/static/img/screen5.png "Screen")
@@ -43,13 +49,13 @@ Een performance budget is niet van toepassing op dit moment. De grootste 'boosdo
 Nog doen:
 * Testen op slechtere internetverbindingen > hoe laadt alles in? Hoe kan dit beter?
 
-#### Cookies
+#### 6. Cookies
 Daar maakt deze app op het moment geen gebruik van en dus ook niet van toepassing om dat momenteel te gaan testen.
 
-#### Local Storage
+#### 7. Local Storage
 * Detail pagina van een bepaalde song in localstorage opslaan
 
-#### Muis/Trackpad disabled
+#### 8. Muis/Trackpad disabled
 * semantische HTML (transparency)
 * :focus states toevoegen op elke tab
 
