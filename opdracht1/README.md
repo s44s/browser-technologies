@@ -58,16 +58,17 @@ Daarnaast heb ik ook de site getest op een slectere internetverbinding (slow 3G)
 Daar maakt deze app op het moment geen gebruik van en dus ook niet van toepassing om dat momenteel te gaan testen.
 
 #### 7. Local Storage
-* Detail pagina van een bepaalde song in localstorage opslaan
+Mijn WAFS app maakt geen gebruik van localstorage. Dit omdat de data continu kan veranderen. De top songs blijven niet altijd gelijk. Wat ik wel nog zou kunnen doen om de localstorage te benutten is om bepaalde detail pagina's o te slaan. Zo kost dit minder tijd om continu opnieuw geladen te worden. Het zorgt verder niet voor problemen omdat de informatie van dat nummer altijd gelijk zal blijven.
 
 #### 8. Muis/Trackpad disabled
-* semantische HTML (transparency)
-* :focus states toevoegen op elke tab
+De site kan ook gebruikt worden voor mensen die alleen trackpad gebruiken. Wel is het nu nog gedaan met de standaard blauwe outline aangegeven. Dit zou mooier gestyled kunnen worden. Dit kan gedaan worden door een :focus state toe te voegen op elke tab.
 
 ***
 
 #### Testen in het device lab
-* Website moet nog responsive gemaakt worden..
+Er zijn per browser een aantal dingen die niet werken (zie punten hierboven). Wanneer dit gebeurd wordt eigenlijk de gehele javascript geblocked. Ik ga uitzoeken of dit beter opgelost kan worden.
+
+Een styling probleem is dat de website nog niet volledig responsive is. Daarnaast kan de CSS ook nog wel netter gemaakt worden.
 
 ***
 
