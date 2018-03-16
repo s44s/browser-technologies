@@ -23,7 +23,7 @@ Omdat de afbeeldingen binnen komen via de API request heb ik geen invloed op het
 De alt tag stylen zou een optie zijn, maar dit voegt niet veel toe aan het begrijpen van de content van de pagina. De afbeelding bevatten geen belangrijke content.
 
 #### 2. Custom fonts
-Op dit moment gebruikt de site één custom font. Hier is ook een fallback voor geschreven. Icon fonts zijn niet in deze site gebruikt. Ik heb getest met het disabelen van custom fonts en de pagina werkt. Er vallen geen dingen weg. Per browser is het verschillend hoe het font eruit komt te zien. Dit komt door de systemfonts die als fallback staan opgegeven in de browsers.
+Op dit moment gebruikt de site geen custom fonts. Het font wat gebruikt wordt momenteel heeft een fallback 'sans-serif'. Icon fonts zijn niet in deze site gebruikt. Ik heb getest met het disabelen van custom fonts en de pagina werkt. Er vallen geen dingen weg. Per browser is het verschillend hoe het font eruit komt te zien. Dit komt door de systemfonts die als fallback staan opgegeven in de browsers.
 
 Best practices voor custom fonts:
 * Icon fonts vervangen voor SVG.
@@ -32,10 +32,9 @@ Best practices voor custom fonts:
 * Only .woff and .woff2 als format om de load pagina niet lager te maken dan nodig.
 
 #### 3. Javascript
-* Minify Javascript
-* Javascript alleen gebruiken om data in te laden, geen CSS style:none bijvoorbeeld
+Javascript is van groot belang bij mijn applicatie, er wordt praktisch geen data ingeladen zonder script. Dit wordt alleen niet naar de gebruiker getoond. Het enige wat je te zien krijgt is een wit scherm. Dit komt omdat ik de sections die in de applicatie staan laat togglen. Ik zou hier misschien nog eens over na moeten denken of dit de beste oplossing is. Wel vraag ik mij af of dit een groot probleem gaat oplossen want het inladen van de data moet via javascript gebeuren. Ik zou de gebruiker duidelijk maken dat javascript aan moet staan om deze site te gebruiken. Verder zijn er nog een aantal andere dingen gebleken uit mijn javascript:
 * URLSearchParams wordt niet ondersteund door Safari
-* Modules wordt niet ondersteund door Safari & Firefox
+* Modules ES6 wordt niet ondersteund door Safari & Firefox. Ik heb daarom voor nu de modules weg gehaal en 1 script in laten laden. Wanneer mijn script groter wordt zou ik ervoor kunnen kiezen om modulair in te laden met ES5.
 
 #### 4. Kleur
 * Zorg voor een goed contrast
