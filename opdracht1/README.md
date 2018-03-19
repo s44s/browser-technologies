@@ -73,6 +73,8 @@ Er zijn per browser een aantal dingen die niet werken (zie punten hierboven). Wa
 
 Een styling probleem is dat de website nog niet volledig responsive is. Daarnaast kan de CSS ook nog wel netter gemaakt worden.
 
+Helaas kon ik niet verder testen op meerdere devices omdat bij api limit request was bereikt.. Dit is wat er uit kwam bij de volgende devices:
+
 ![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht1/static/img/IMG_7956.JPG "Screen")
 
 ![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht1/static/img/IMG_7957.JPG "Screen")
