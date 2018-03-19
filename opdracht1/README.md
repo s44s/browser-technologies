@@ -44,6 +44,9 @@ Best practices:
 * Gebruik geen kleuren hierarchie, of gebruik hier een label bij
 * Laat de betekenis van kleuren (bijv: rood = gevaar) niet bepalend zijn voor een bepaald element. Geef daar ook een beschrijving bij als dat gedaan wordt. Zodat ook mensen die de kleur niet/slecht kunnen zien ook begrijpen wat er bedoeld wordt.
 
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht1/static/img/kleurenblind.png "Screen")
+
+
 #### 5. Breedband internet
 Een performance budget is niet van toepassing op dit moment. De grootste 'boosdoener' zijn de afbeeldinen, waar ik niks aan kan doen aangezien ik ze niet zelf inlaad via HTML of CSS.
 
@@ -66,9 +69,13 @@ De site kan ook gebruikt worden voor mensen die alleen trackpad gebruiken. Wel i
 ***
 
 #### Testen in het device lab
-Er zijn per browser een aantal dingen die niet werken (zie punten hierboven). Wanneer dit gebeurd wordt eigenlijk de gehele javascript geblocked. Ik ga uitzoeken of dit beter opgelost kan worden.
+Er zijn per browser een aantal dingen die niet werken (zie punten hierboven). Wanneer dit voorkomt, wordt eigenlijk de gehele javascript geblocked. Ik ga uitzoeken of dit beter opgelost kan worden.
 
 Een styling probleem is dat de website nog niet volledig responsive is. Daarnaast kan de CSS ook nog wel netter gemaakt worden.
+
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht1/static/img/IMG_7956.JPG "Screen")
+
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht1/static/img/IMG_7957.JPG "Screen")
 
 ***
 
