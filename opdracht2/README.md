@@ -41,7 +41,9 @@ nav ul li {
 
 ### Bronnen
 [Writing forward-compatible websites](https://developer.mozilla.org/en-US/docs/Web/Guide/Writing_forward-compatible_websites)
+
 [Responsive mobile dropdown navigation using css only](https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793)
+
 [Responsive, Pure CSS Off-Canvas Hamburger Menu](https://medium.com/creative-technology-concepts-code/responsive-mobile-dropdown-navigation-using-css-only-7218e4498a99)
 
 ***
