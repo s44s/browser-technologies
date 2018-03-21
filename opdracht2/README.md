@@ -27,6 +27,7 @@ nav ul li {
 	}
 }
 ```
+Vanaf [commit 27](https://github.com/s44s/browser-technologies/commit/05b89881e26b15e2c818b4d396f37961de862f33) werkte alles voor elke browser. Vanaf hier moest ik een keuze gaan maken. Of ik zou alles met CSS gaan maken, waarbij transforms, transitions en :checked nodig waren. Dit wordt niet door alle browsers ondersteund, dus ideaal is deze oplossing niet. De andere oplossing was met javascript. Door een klik op de knop met `onclick="window.localName()` kon dit ook opgelost worden. Maar wat als javascript disabled staat? Dan kan het menu niet meer worden getoond door `display: none`. Vanwege deze reden ben ik voor de CSS oplossing gegaan. CSS is een layer lager dan Javascript en dus ook stabieler.
 
 ### Testen:
 #### Validatie
@@ -51,6 +52,9 @@ nav ul li {
 ***
 
 ### Carrousel
+jnkjsnfsaf
+
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/schets2.jpg "Schets")
 
 Onduidelijk:
 * Bouw een (kleine) progressive enhanced demo (zonder extra tools, gewoon in 1 HTML file, zo simpel mogelijk).
