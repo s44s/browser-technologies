@@ -63,6 +63,9 @@ Ik heb op alle mogelijke browsers getest. Safari, Chrome, Firefox en Opera Neon.
 ### Carrousel
 Een aantal verschillende aankondigen met image en artikel met daarin een titel en een tekstveld die links bevatten. Wanneer mogelijk kan door de verschillende items heen geslided worden.
 
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/schets2.jpg "Schets")
+
+
 Met de HTML als basis ben ik begonnen. Elk item bestaat uit een section met een image en een article met daarin een titel en een p element. Daarnaast zijn er twee buttons nodig met daarin een SVG element voor de terug en verder knoppen. Als laatste heb ik een nav onderaan de body toegevoegd. Hier ga ik later buttons in generen in Javascript.
 
 Door middel van HTML en CSS worden de items onder elkaar geplaatst zonder buttons. Wanneer javascript het doet, komen er naast het item twee buttons te staan om terug of verder te gaan. Onderaan het item staan een aantal buttons (gelijk aan aantal sections). Deze geven aan welk item er nu getoond wordt en hoeveel andere er nog zijn. Omdat je er mee kan navigeren heb ik er een nav tag omheen geplaatst en buttons ingeplaats door middel van javascript.
