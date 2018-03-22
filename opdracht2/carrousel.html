@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +9,185 @@
 </head>
 
 <style>
+	body {
+		margin: 0;
+		padding: 0;
+		font-family: helvetica;
+	}
+
+	h1 {
+		font-size: 25px;
+		margin: 0;
+	}
+
+	p {
+		font-size: 14px;
+		margin: 0;
+		margin-top: 5%;
+	}
+
+	button {
+		background-color: white;
+		border: none;
+		display: none;
+	}
+
+	img {
+		display: inline-block;
+		width: 40%;
+		margin-left: 5%;
+	}
+
+	article {
+		display: inline-block;
+		width: 40%;
+		margin-left: 5%;
+	}
+
+	section {
+		margin: 1.5%;
+		padding: 1.5%;
+		background-color: red;
+	}
+
+	ol li {
+		cursor: pointer;
+	}
+
+	nav button {
+		display: inline-block;
+		width: 50px;
+		height: 50px;
+		background-color: red;
+		margin-left: 5px;
+	}
+
+	@supports (display: flex) {
+		section {
+			display: flex;
+			flex-direction: row;
+			align-items: flex-start;
+		}
+
+		section img {
+			margin-left: 5vw;
+			flex-basis: 40vw;
+		}
+
+		section article {
+			margin-left: 5vw;
+			flex-basis: 40vw;
+		}
+	}
+
 </style>
 
 <body>
+	<button class="prev">
+		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			 width="75px" height="80px" viewBox="75 0 75 80" enable-background="new 0 0 75 80" xml:space="preserve">
+		<g>
+			<path d="M80.002,40c0-16.57,13.43-30,30-30C126.568,10,140,23.43,140,40c0,16.564-13.434,30-29.998,30
+				C93.432,70,80.002,56.564,80.002,40z"/>
+			<g>
+				<polygon fill="#ECECEA" points="113.611,51.154 102.398,39.941 113.611,28.729 115.025,30.145 105.229,39.941 115.025,49.739
+					"/>
+			</g>
+		</g>
+		</svg>
+	</button>
+	<button class="next">
+		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			 width="75px" height="80px" viewBox="0 0 75 80" enable-background="new 0 0 150 80" xml:space="preserve">
+			<g>
+				<path d="M10.001,40c0-16.57,13.43-30,30-30c16.565,0,29.998,13.43,29.998,30c0,16.564-13.433,30-29.998,30
+					C23.431,70,10.001,56.564,10.001,40z"/>
+				<g>
+					<polygon fill="#ECECEA" points="36.274,28.729 47.487,39.941 36.274,51.154 34.859,49.739 44.656,39.941 34.859,30.145 			"/>
+				</g>
+			</g>
+		</g>
+		</svg>
+	</button>
+	<section>
+		<img src="images/kipIllustratie.svg" alt="kip"/>
+		<article>
+			<h1>Kip</h1>
+			<p>De kip (Gallus gallus domesticus) of het huishoen is een zeer bekende gedomesticeerde vogelsoort uit de familie van de fazantachtigen (Phasianidae), die weer behoort tot de orde der hoendervogels (Galliformes). Deze hoendersoort is tevens de meest voorkomende vogelsoort ter wereld. Er zijn op de wereld 52 miljard kippen. Er bestaat een zeer groot aantal rassen. Zie daarvoor de lijst van kippenrassen. In strikte zin verwijst de naam kip specifiek naar de vrouwelijke exemplaren van deze hoendersoort. In de praktijk echter wordt de naam kip veelal gebruikt voor de soort als geheel, dus ook de hanen.
+			</p>
+		</article>
+	</section>
+	<section>
+		<img src="images/kipIllustratie.svg" alt="kip"/>
+		<article>
+			<h1>Varken</h1>
+			<p>De kip (Gallus gallus domesticus) of het huishoen is een zeer bekende gedomesticeerde vogelsoort uit de familie van de fazantachtigen (Phasianidae), die weer behoort tot de orde der hoendervogels (Galliformes). Deze hoendersoort is tevens de meest voorkomende vogelsoort ter wereld. Er zijn op de wereld 52 miljard kippen. Er bestaat een zeer groot aantal rassen. Zie daarvoor de lijst van kippenrassen. In strikte zin verwijst de naam kip specifiek naar de vrouwelijke exemplaren van deze hoendersoort. In de praktijk echter wordt de naam kip veelal gebruikt voor de soort als geheel, dus ook de hanen.
+			</p>
+		</article>
+	</section>
+	<section>
+		<img src="images/kipIllustratie.svg" alt="kip"/>
+		<article>
+			<h1>Eend</h1>
+			<p>De kip (Gallus gallus domesticus) of het <a target="_blank" href="http://www.encyclo.nl/begrip/HUISHOEN">huishoen</a> is een zeer bekende gedomesticeerde vogelsoort uit de familie van de fazantachtigen (Phasianidae), die weer behoort tot de orde der hoendervogels (Galliformes). Deze hoendersoort is tevens de meest voorkomende vogelsoort ter wereld. Er zijn op de wereld 52 miljard kippen. Er bestaat een zeer groot aantal rassen. Zie daarvoor de lijst van kippenrassen. In strikte zin verwijst de naam kip specifiek naar de vrouwelijke exemplaren van deze hoendersoort. In de praktijk echter wordt de naam kip veelal gebruikt voor de soort als geheel, dus ook de hanen.
+			</p>
+		</article>
+	</section>
+	<nav>
+	</nav>
+
 	<script>
+		var prev = document.querySelector('.prev');
+		var next = document.querySelector('.next');
+		var sections = document.querySelectorAll("section");
+		var buttons = document.querySelectorAll("button");
+		var slideIndex = 1;
+
+		buttons.forEach(function(button){
+			button.style.display = "block";
+		})
+
+		function showDivs(n) {
+			var i;
+			if (n > sections.length) {slideIndex = 1}
+			if (n < 1) {slideIndex = sections.length}
+			for (i = 0; i < sections.length; i++) {
+				 sections[i].style.display = "none";
+			}
+			sections[slideIndex-1].style.display = "flex";
+		}
+
+		showDivs(slideIndex);
+
+		function plusDivs(n) {
+			showDivs(slideIndex += n);
+		}
+
+		prev.addEventListener('click', function(){
+			plusDivs(-1)
+		})
+		next.addEventListener('click', function(){
+			plusDivs(1)
+		})
+
+		for(var i = 0; i < sections.length; i++) {
+			var nav = document.querySelector('nav');
+			var dot = document.createElement('button');
+			nav.appendChild(dot);
+		}
+
+		//dot navigation
+		function specificDivs(n) {
+			showDivs(slideIndex = n);
+			var links = document.querySelectorAll(".itemLinks");
+		}
+
+		var dots = document.querySelectorAll('nav button');
+		dots.forEach(function(el, index){
+			el.addEventListener('click', function(){
+				specificDivs(index + 1)
+			})
+		})
 	</script>
 </body>
 </html>
