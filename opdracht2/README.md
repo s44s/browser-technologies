@@ -33,17 +33,16 @@ Om de oplossing te vinden ben ik terug gegaan naar de basis (HTML) en gekeken wa
 
 Het was veel meer werk dan ik had bedacht. 'Hoe moeilijk is het maken van een responsive menu nou?'. Nou toch lastiger als ik dacht wanneer je het semantisch correct wilt doen. Zonder javascript krijg je de menu items te zien. Wanneer javascript is enabled kun je de menu items ook togglen.
 
-### Testen:
-#### Validatie
-* html5test.com:
-* css3test.com
-* kangax.github.io/compat-table/es6/
+TODO:
+* animatie toevoegen
+* transitions voor meerdere browsers schrijven
+* vw fallback voor schrijven
+* IE op mac krijgen om te testen
 
-#### Progressive enhanced demo
-* Zoek uit hoe je deze kunt testen. Verzamel uitleg en artikelen. Bouw een (kleine) progressive enhanced demo (zonder extra tools, gewoon in 1 HTML file, zo simpel mogelijk).
-
+### Testen
 #### Verschillende browsers
-* Test de feature (en fallback) op verschillende browsers
+Ik heb op alle mogelijke browsers getest. Safari, Chrome, Firefox en Opera Neon. Op allen werkte het menu.
+
 * Device lab
 
 ### Bronnen
@@ -53,15 +52,15 @@ Het was veel meer werk dan ik had bedacht. 'Hoe moeilijk is het maken van een re
 
 [Responsive, Pure CSS Off-Canvas Hamburger Menu](https://medium.com/creative-technology-concepts-code/responsive-mobile-dropdown-navigation-using-css-only-7218e4498a99)
 
+[html5test.com](html5test.com)
+
+[css3test.com](css3test.com)
+
+[kangax.github.io/compat-table/es6/](kangax.github.io/compat-table/es6/)
+
 ***
 
 ### Carrousel
 jnkjsnfsaf
 
 ![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/schets2.jpg "Schets")
-
-Onduidelijk:
-* Bouw een (kleine) progressive enhanced demo (zonder extra tools, gewoon in 1 HTML file, zo simpel mogelijk).
-* 6 afzonderelijke demo's/features?
-Post je 6 afzonderlijke demo’s op GitHub met uitleg in een README file.
-6 features zijn onderzocht en er is een demo gemaakt.
