@@ -149,8 +149,12 @@
 
 		function showDivs(n) {
 			var i;
-			if (n > sections.length) {slideIndex = 1}
-			if (n < 1) {slideIndex = sections.length}
+			if (n > sections.length){
+				slideIndex = 1
+			}
+			if (n < 1) {
+				slideIndex = sections.length
+			}
 			for (i = 0; i < sections.length; i++) {
 				 sections[i].style.display = "none";
 			}
