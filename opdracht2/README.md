@@ -6,6 +6,8 @@
 ### Responsive hamburger menu
 Een responsive menu dat werkt op (alle) browsers en devices. Op een kleiner device wordt het getoond als een hamburger menu.
 
+https://s44s.github.io/browser-technologies/opdracht2/menu.html
+
 ![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/schets1.jpg "Schets")
 
 Allereerst ben ik begonnen met mijn HTML. Om zo gelaagd mogelijk te werken, ga ik eerst bekijken hoe ik een zo goed mogelijke semantische HTML kan neerzetten. Vervolgens ben ik die HTML gaan stylen in een CSS file. Bij het stijlen heb ik telkens nagedacht 'zal dit ondersteund worden door ook oudere browsers'. Wanneer ik hier over twijfelde schreef ik een fallback. Dit heb ik bijvoorbeeld gedaan voor display flex. De fallback werkt als volgt: standaard worden de list items van het menu naast elkaar geplaatst (10vw) door ze te displayen als een `display: inline-block`. Wanneer de browser `display: flex` support worden de list items naast elkaar gezet door middel van flexbox.
@@ -45,8 +47,31 @@ Ik heb op alle mogelijke browsers getest. Safari, Chrome, Firefox en Opera Neon.
 
 ![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/opera.png "Schets")
 
+* Device lab:
 
-* Device lab
+***
+
+### Carrousel
+Een aantal verschillende aankondigen met image en artikel met daarin een titel en een tekstveld die links bevatten. Wanneer mogelijk kan door de verschillende items heen geslided worden.
+
+https://s44s.github.io/browser-technologies/opdracht2/carrousel.html
+
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/schets2.jpg "Schets")
+
+
+Met de HTML als basis ben ik begonnen. Elk item bestaat uit een section met een image en een article met daarin een titel en een p element. Daarnaast zijn er twee buttons nodig met daarin een SVG element voor de terug en verder knoppen. Als laatste heb ik een nav onderaan de body toegevoegd. Hier ga ik later buttons in generen in Javascript.
+
+Door middel van HTML en CSS worden de items onder elkaar geplaatst zonder buttons. Wanneer javascript het doet, komen er naast het item twee buttons te staan om terug of verder te gaan. Onderaan het item staan een aantal buttons (gelijk aan aantal sections). Deze geven aan welk item er nu getoond wordt en hoeveel andere er nog zijn. Omdat je er mee kan navigeren heb ik er een nav tag omheen geplaatst en buttons in geplaatst door middel van javascript.
+
+Onderaan de carrousel heb ik nog een dot navigation geplaatst, bestaande uit het aantal buttons gelijk aan de sections. Wanneer je een section toevoegt komt er ook automatisch een nieuw bolletje.
+
+### Testen
+#### Verschillende browsers
+Ik heb op alle mogelijke browsers getest. Safari, Chrome, Firefox en Opera Neon. Op allen werkte de carrousel.
+
+* Device lab:
+
+***
 
 ### Bronnen
 [Writing forward-compatible websites](https://developer.mozilla.org/en-US/docs/Web/Guide/Writing_forward-compatible_websites)
@@ -60,15 +85,3 @@ Ik heb op alle mogelijke browsers getest. Safari, Chrome, Firefox en Opera Neon.
 [css3test.com](css3test.com)
 
 [kangax.github.io/compat-table/es6/](kangax.github.io/compat-table/es6/)
-
-***
-
-### Carrousel
-Een aantal verschillende aankondigen met image en artikel met daarin een titel en een tekstveld die links bevatten. Wanneer mogelijk kan door de verschillende items heen geslided worden.
-
-![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/schets2.jpg "Schets")
-
-
-Met de HTML als basis ben ik begonnen. Elk item bestaat uit een section met een image en een article met daarin een titel en een p element. Daarnaast zijn er twee buttons nodig met daarin een SVG element voor de terug en verder knoppen. Als laatste heb ik een nav onderaan de body toegevoegd. Hier ga ik later buttons in generen in Javascript.
-
-Door middel van HTML en CSS worden de items onder elkaar geplaatst zonder buttons. Wanneer javascript het doet, komen er naast het item twee buttons te staan om terug of verder te gaan. Onderaan het item staan een aantal buttons (gelijk aan aantal sections). Deze geven aan welk item er nu getoond wordt en hoeveel andere er nog zijn. Omdat je er mee kan navigeren heb ik er een nav tag omheen geplaatst en buttons ingeplaats door middel van javascript.
