@@ -49,6 +49,14 @@ Ik heb op alle mogelijke browsers getest. Safari, Chrome, Firefox en Opera Neon.
 
 * Device lab:
 
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7968.jpg "Schets")
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7969.jpg "Schets")
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7970.jpg "Schets")
+
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7971.jpg "Schets")
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7972.jpg "Schets")
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7973.jpg.jpg "Schets")
+
 ***
 
 ### Carrousel
@@ -70,6 +78,15 @@ Onderaan de carrousel heb ik nog een dot navigation geplaatst, bestaande uit het
 Ik heb op alle mogelijke browsers getest. Safari, Chrome, Firefox en Opera Neon. Op allen werkte de carrousel.
 
 * Device lab:
+
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7974.jpg "Schets")
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7975.jpg "Schets")
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7976.jpg "Schets")
+
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7977.jpg "Schets")
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7977.jpg "Schets")
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7979.jpg.jpg "Schets")
+
 
 ***
 
