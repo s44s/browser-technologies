@@ -49,13 +49,13 @@ Ik heb op alle mogelijke browsers getest. Safari, Chrome, Firefox en Opera Neon.
 
 * Device lab:
 
-![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7968.jpg "Schets")
-![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7969.jpg "Schets")
-![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7970.jpg "Schets")
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7968.JPG "Schets")
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7969.JPG "Schets")
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7970.JPG "Schets")
 
-![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7971.jpg "Schets")
-![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7972.jpg "Schets")
-![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7973.jpg.jpg "Schets")
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7971.JPG "Schets")
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7972.JPG "Schets")
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht2/images/IMG_7973.JPG "Schets")
 
 ***
 
