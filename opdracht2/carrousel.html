@@ -57,26 +57,60 @@
 		width: 50px;
 	}
 
-	img {
-		display: inline-block;
-		width: 40%;
-		margin-left: 5%;
-	}
-
-	article {
-		display: inline-block;
-		width: 40%;
-		margin-left: 5%;
-	}
-
 	section {
 		box-sizing: border-box;
+		flex-direction: column;
 		padding: 1.5%;
 		width: 78vw;
-		height: 50vh;
 		margin-top: 5%;
 		margin-left: 11vw;
 		box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+	}
+
+	img {
+		width: 100%;
+	}
+
+	@media screen and (min-width: 40em){
+		img {
+			display: inline-block;
+			width: 40%;
+			margin-left: 5%;
+		}
+
+		article {
+			display: inline-block;
+			width: 40%;
+			margin-left: 5%;
+		}
+
+		section {
+			box-sizing: border-box;
+			padding: 1.5%;
+			width: 78vw;
+			height: 50vh;
+			margin-top: 5%;
+			margin-left: 11vw;
+			box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+		}
+
+		@supports (display: flex) {
+			section {
+				display: flex;
+				flex-direction: row;
+				align-items: flex-start;
+			}
+
+			section img {
+				margin-left: 5vw;
+				flex-basis: 40vw;
+			}
+
+			section article {
+				margin-left: 5vw;
+				flex-basis: 40vw;
+			}
+		}
 	}
 
 	nav {
@@ -98,24 +132,6 @@
 
 	.activeSlider {
 		background-color: black;
-	}
-
-	@supports (display: flex) {
-		section {
-			display: flex;
-			flex-direction: row;
-			align-items: flex-start;
-		}
-
-		section img {
-			margin-left: 5vw;
-			flex-basis: 40vw;
-		}
-
-		section article {
-			margin-left: 5vw;
-			flex-basis: 40vw;
-		}
 	}
 
 </style>
