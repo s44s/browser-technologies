@@ -17,13 +17,6 @@ aside {
 	float: right;
 }
 
-#div1 {
-    width: 350px;
-    height: 70px;
-    padding: 10px;
-    border: 1px solid #aaaaaa;
-}
-
 /* products */
 section {
 	display: inline-block;
@@ -31,6 +24,7 @@ section {
 	margin-right: 5%;
 	margin-top: 5%;
 	border: 1px solid black;
+	cursor: move;
 	/* box-shadow: 0 15px 10px #777; */
 }
 
@@ -51,4 +45,16 @@ img {
 	width: 80%;
 	margin: 0;
 	padding: 0;
+	user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+/* aside */
+ul {
+	width: 100%;
+	height: 100px;
 }

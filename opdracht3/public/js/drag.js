@@ -1,20 +1,29 @@
-// function allowDrop(ev) {
-//     ev.preventDefault();
-// }
-//
-// function drag(ev) {
-// 	console.log(ev.dataTransfer)
-// 	ev.dataTransfer.setData("text", ev.target.id);
-// 	console.log(ev.dataTransfer)
-//
-// }
-//
-// function drop(ev) {
-//     ev.preventDefault();
-//     var data = ev.dataTransfer.getData("text");
-// 		console.log(ev.target)
-//     ev.target.appendChild(document.getElementById(data));
-// }
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+	if(ev.target.childNodes[1].checked == false){
+		ev.dataTransfer.setData("value", ev.target.childNodes[1].value);
+		ev.target.childNodes[1].checked = true;
+	} else {
+		ev.target.childNodes[1].checked = false;
+	}
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("value");
+
+	if (!data) {
+		console.log('leeg')
+	} else {
+		var li = document.createElement('li');
+		li.innerHTML = data;
+		ev.target.appendChild(li);
+	}
+
+}
 
 var checkboxes = document.querySelectorAll('form section input');
 
