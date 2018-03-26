@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/* layout */
+main {
+	display: inline-block;
+	width: 60vw;
+	margin-left: 5vw;
+	float: left;
+}
+
+aside {
+	display: inline-block;
+	width: 30vw;
+	float: right;
+}
+
+#div1 {
+    width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+}
+
+/* products */
+section {
+	display: inline-block;
+	width: 20%;
+	margin-right: 5%;
+	margin-top: 5%;
+	border: 1px solid black;
+	/* box-shadow: 0 15px 10px #777; */
+}
+
+input {
+	display: inline-block;
+	width: 5%:
+	margin: 0;
+	padding: 0;
+}
+
+button {
+	display: block;
+	margin-top: 5%;
+}
+
+img {
+	display: inline-block;
+	width: 80%;
+	margin: 0;
+	padding: 0;
+}

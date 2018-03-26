@@ -1,0 +1,52 @@
+<%- include('partials/head.ejs') %>
+
+		<main>
+			<h1>Boodschappen</h1>
+			<form action="" method="post" enctype="application/json">
+				<section ondragstart="dragStartHandler(event)" draggable="true">
+					<input id="kaas" value="kaas" type="checkbox" name="item">
+					<img src="https://static.ah.nl/static/product/AHI_434d50323234343631_2_LowRes_JPG.JPG" alt="kaas">
+				</section>
+				<section draggable="true">
+					<input id="brood" value="brood" type="checkbox" name="item">
+					<img src="https://static.ah.nl/static/product/AHI_434d50323231343534_2_LowRes_JPG.JPG" alt="brood">
+				</section>
+				<section draggable="true">
+					<input id="ketchup" value="ketchup" type="checkbox" name="item">
+					<img src="https://static.ah.nl/static/product/AHI_434d50313130363934_1_LowRes_JPG.JPG" alt="ketchup">
+				</section>
+				<section draggable="true">
+					<input id="tomaat" value="tomaat" type="checkbox" name="item">
+					<img src="https://static.ah.nl/static/product/AHI_434d50323139323531_1_LowRes_JPG.JPG" alt="tomaat">
+				</section>
+				<section draggable="true">
+					<input id="mayonaise" value="mayonaise" type="checkbox" name="item">
+					<img src="https://static.ah.nl/static/product/AHI_434d50323837353137_1_LowRes_JPG.JPG" alt="mayonaise">
+				</section>
+				<section id="drag1" draggable="true" ondragstart="drag(event)">
+					<input id="ham" value="ham" type="checkbox" name="item">
+					<img src="https://static.ah.nl/static/product/AHI_434d50323137323236_3_LowRes_JPG.JPG" alt="ham">
+				</section>
+				<button type="submit">Voeg toe</button>
+
+		</main>
+		<aside id="list" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<h1>Boodschappenlijstje</h1>
+			<ul>
+				<% if (typeof groceries !== 'undefined') { %>
+					<% if (!Array.isArray(groceries)) { %>
+						<li><%= groceries %></li>
+						<input id="number" type="number" value="1">
+					<% } 	%>
+
+					<% if (Array.isArray(groceries)) {
+						 for(var i=0; i < groceries.length; i++) { %>
+						 <li><%= groceries[i] %></li>
+						<% }
+					} %>
+				<% } 	%>
+
+		</aside>
+
+
+<%- include('partials/foot.ejs') %>
