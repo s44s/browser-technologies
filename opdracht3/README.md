@@ -1,20 +1,27 @@
-# Browser Technologies
-//Robuuste, toegankelijke websites leren bouwen … 
+# Browser Technologies - eindopdracht
 
-## Opdracht 3 - Progressive Enhanced Browser Technologies 
-Maak een demo op basis van een use case. Zorg dat alle gebruikers, met alle browsers, in iedere context minimaal de core functionaliteit te zien/horen/voelen krijgen. Bouw je demo in 3 lagen, volgens het principe van Progressive Enhancement. Gebruik als enhanced feature een (hippe, innovatieve, vooruitstrevende) Browser Technologie die je gaat onderzoeken op functionaliteit, toegankelijkheid en (browser) ondersteuning.
+> Ik wil boodschappen-om-tostis-te-maken in mijn boodschappenlijstje kunnen gooien
 
-Criteria
-- De code staat in een repository op GitHub
-- Er is een Readme toegevoegd met daarin beschreven:
-- 	een beschrijving van de core functionality
-- 	een beschrijving van de feature(s)/Browser Technologies
-- 	welke browser de feature(s) wel/niet ondersteunen
-- 	een beschrijving van de accessibility issues die zijn onderzocht
-- De demo is opgebouwd in 3 lagen, volgens het principe van Progressive Enhancement
-- De user experience van de demo is goed
-- 	de leesbaarheidsregels zijn toegepast, contrast en kleuren kloppen
-- 	het heeft een gebruiksvriendelijke interface, met gebruikmaking van affordance en feedback op de interactieve elementen
-- Student kan uitleggen wat Progressive Enhancement en Feature Detectie is en hoe dit toe te passen in Web Development
+Website live on: https://browsertech.suustenvoorde.me/
 
- 
+## Core functionaliteit
+
+
+//pattern prime
+![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/serviceworker-offline-page.png "Schets")
+
+## Enhanced feature
+* functionaliteit
+* toegankelijkheid
+* (browser) ondersteuning.
+
+Feature(s)
+[x] server-side form (Node.js)
+[x] drag and drop
+[x] realtime toevoegen/verwijderen van boodschappen
+
+## Ondersteuning
+*	welke browser de feature(s) wel/niet ondersteunen
+* device lab
+
+## Accessibility
