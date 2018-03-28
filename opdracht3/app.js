@@ -25,6 +25,6 @@ app.use('/basket', basketRouter);
 app.use(express.static('public'));
 
 //run
-app.listen(3000, function () {
+app.listen(4000, function () {
   console.log('Example app listening on port 3000!')
 })
