@@ -134,10 +134,14 @@
 	</main>
 
 	<script>
+	if('querySelector' in document && 'querySelectorAll' in document) {
 		var open = document.querySelector('.open');
 		var close = document.querySelector('.close');
 		var menu = document.querySelector('ul');
 		var items = document.querySelectorAll('ul li');
+	}
+
+	if('addEventListener' in window) {
 
 		menu.classList.add('first');
 
@@ -166,6 +170,7 @@
 				open.style.display = "block";
 			})
 		})
+	}
 
 	</script>
 </body>
