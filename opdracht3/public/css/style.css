@@ -1,38 +1,54 @@
 body {
 	margin: 0;
 	padding: 0;
+	font-family: helvetica, sans-serif;
 }
 
 /* layout */
 main {
 	display: inline-block;
-	width: 60vw;
+	width: 50vw;
 	margin-left: 5vw;
+	margin-top: 5vw;
+	margin-bottom: 5vw;
 	float: left;
 }
 
 aside {
 	display: inline-block;
 	width: 30vw;
+	margin-top: 5vw;
+	margin-right: 10vw;
 	float: right;
 }
 
 /* products */
-section {
-	display: inline-block;
-	width: 20%;
-	margin-right: 5%;
-	margin-top: 5%;
-	border: 1px solid black;
-	cursor: move;
-	/* box-shadow: 0 15px 10px #777; */
-}
-
-input {
-	display: inline-block;
-	width: 5%:
+h1 {
 	margin: 0;
 	padding: 0;
+}
+
+section {
+	display: inline-block;
+	width: 30%;
+	margin-top: 5%;
+	cursor: move;
+	box-shadow: 0 1px 1px #777;
+}
+
+input[type=checkbox] {
+  opacity:0;
+}
+
+input[type=checkbox] + label {
+	height: 100%;
+	width: 100%;
+	display:inline-block;
+	padding: 0 0 0 0px;
+}
+
+input[type=checkbox]:checked + label img{
+	opacity: 0.5;
 }
 
 button {
@@ -41,10 +57,20 @@ button {
 }
 
 img {
-	display: inline-block;
-	width: 80%;
+	width: 100%;
 	margin: 0;
 	padding: 0;
+	cursor: move;
+	user-drag: none;
+	user-select: none;
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+label {
+	cursor: move;
 	user-drag: none;
 	user-select: none;
 	-moz-user-select: none;
@@ -56,5 +82,18 @@ img {
 /* aside */
 ul {
 	width: 100%;
-	height: 100px;
+	height: 500px;
+	padding-top: 5%;
+	background-color: #fff;
+	background-image:
+	linear-gradient(90deg, transparent 49px, #abced4 49px, #abced4 11px, transparent 51px),
+	linear-gradient(#eee .1em, transparent .1em);
+	background-size: 100% 1.1em;
+	/* list-style-image: url('../images/checked.png'); */
+}
+
+ul li {
+	margin-left: 5%;
+	font-size: 120%;
+	line-height: 120%;
 }

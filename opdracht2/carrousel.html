@@ -190,6 +190,7 @@
 	</nav>
 
 	<script>
+	if('querySelector' in document && 'querySelectorAll' in document && 'addEventListener' in window) {
 		var prev = document.querySelector('.prev');
 		var next = document.querySelector('.next');
 		var sections = document.querySelectorAll("section");
@@ -256,6 +257,7 @@
 				specificDivs(index + 1)
 			})
 		})
+	}
 	</script>
 </body>
 </html>
