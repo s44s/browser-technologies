@@ -15,10 +15,10 @@ Website live on: https://browsertech.suustenvoorde.me/
 * toegankelijkheid
 * (browser) ondersteuning.
 
-Feature(s)
-[x] server-side form (Node.js)
-[x] drag and drop
-[x] realtime toevoegen/verwijderen van boodschappen
+Feature(s):
+- [x] server-side form (Node.js)
+- [x] drag and drop
+- [x] realtime toevoegen/verwijderen van boodschappen
 
 ## Ondersteuning
 *	welke browser de feature(s) wel/niet ondersteunen
