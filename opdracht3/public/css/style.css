@@ -6,34 +6,50 @@ body {
 
 /* layout */
 main {
-	display: inline-block;
-	width: 50%;
-	margin-left: 5%;
-	margin-top: 5%;
-	margin-bottom: 5%;
-	float: left;
-}
-
-aside {
-	display: inline-block;
-	width: 30%;
-	margin-top: 5%;
-	margin-right: 10%;
-	float: right;
-}
-
-@supports (width: 50vw) {
-	main {
-		width: 50vw;
-		margin-left: 5vw;
-		margin-top: 5vw;
-		margin-bottom: 5vw;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 5%;
+		margin-bottom: 5%;
 	}
 
 	aside {
-		width: 30vw;
-		margin-top: 5vw;
-		margin-right: 10vw;
+		margin-top: 5%;
+		margin-left: 5%;
+		margin-right: 20%;
+	}
+
+@media (min-width: 48em) {
+	main {
+		display: inline-block;
+		width: 50%;
+		margin-left: 5%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+		float: left;
+	}
+
+	aside {
+		display: inline-block;
+		width: 30%;
+		margin-top: 5%;
+		margin-left: 0;
+		margin-right: 10%;
+		float: right;
+	}
+
+	@supports (width: 50vw) {
+		main {
+			width: 50vw;
+			margin-left: 5vw;
+			margin-top: 5vw;
+			margin-bottom: 5vw;
+		}
+
+		aside {
+			width: 30vw;
+			margin-top: 5vw;
+			margin-right: 10vw;
+		}
 	}
 }
 /* products */
