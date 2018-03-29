@@ -137,3 +137,6 @@ Verder is de site ook toegankelijk gemaakt voor mensen die alleen een keyboard (
 Ook heb ik het getest met een screenreader. Dit gaat heel goed. Wanneer je over een product gaat wordt alleen de label opgenoemd wat in dit geval de naam van het soort product is. De gebruiker krijgt te horen welk product het is en dat ze door middel van een checkbox het product kunnen selecteren.
 
 ![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht3/public/images/screenreader.png "Schets")
+
+## Conclusie
+Progressive enchancement is toegepast op deze site en voornamelijk heb ik over deze manier van denken meer kennis over opgedaan. Zo is mij duidelijk geworden dat wanneer je dit vanaf het begin af aan in bouwt je veel problemen kunt voorkomen. Zelf weet ik nog niet zo goed wanneer iets wel of niet ondersteunt wordt. Tijdens het testen kom ik fouten tegen en hierdoor kom ik achter nieuwe feature detects die ik moet toepassen voor het volgende project.
