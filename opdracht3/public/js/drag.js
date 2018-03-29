@@ -1,4 +1,4 @@
-console.log("setData" in DataTransfer.prototype)
+console.log(DataTransfer.prototype)
 if('draggable' in document.createElement('span') && "setData" in DataTransfer.prototype){
 	function allowDrop(ev) {
 	    ev.preventDefault();
@@ -9,7 +9,7 @@ if('draggable' in document.createElement('span') && "setData" in DataTransfer.pr
 
 		if(ev.target.firstElementChild.checked == false || ev.target.parentElement.parentElement.firstElementChild.checked == false){
 			console.log(ev.target.firstElementChild)
-			ev.dataTransfer.setData("value", ev.target.firstElementChild.value);
+			ev.dataTransfer.setData("value", 'test');
 			ev.target.firstElementChild.checked = true;
 		} else {
 			ev.target.firstElementChild.checked = false;
