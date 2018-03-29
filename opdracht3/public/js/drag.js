@@ -24,6 +24,14 @@ if('draggable' in document.createElement('span')){
 			ev.target.appendChild(li);
 		}
 	}
+} else {
+	var images = document.querySelectorAll('img');
+	var sections = document.querySelectorAll('label');
+
+	for(var i = 0; i < images.length; i++) {
+		images[i].style.cursor = "auto";
+		sections[i].style.cursor = "auto";
+	}
 }
 
 if('querySelector' in document && 'querySelectorAll' in document) {
