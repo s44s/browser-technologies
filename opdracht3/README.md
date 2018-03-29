@@ -78,6 +78,12 @@ Safari en Chrome deden het beide goed.
 
 Ik heb op IE getest en toch bleek dat hij het niet deed. Dit kwam niet door drag and drop, maar door `.childNodes()`. Firefox had hetzelfde probleem, hoewel canisue dit niet aangaf. Na wat onderzoek te hebben gedaan, kwam ik de volgende optie tegen `firstElementChild`. Ik heb dit vervangen voor childNodes en dit bleek nog niet te werken. In Firefox heb ik door middel van Dev Tools bekeken wat er aan de hand was. Wat bleek nou, de image was in firefox ook draggable en deze werd toegevoegd in plaats van het section element. Een image is namelijk vanuit zichzelf uit automatisch draggable. User-drag bleek in CSS alleen te werken op Chrome en Safari. Wat ik gedaan heb ik bij de HTML elementen die niet meer mochten draggen heb ik dit `draggable="false"` attribuut toegevoegd.
 
+Na al deze veranderingen werkte het prima op:
+- [x] Chrome
+- [x] Safari
+- [x] Firefox
+- [x] IE 10 & IE9
+
 
 *	welke browser de feature(s) wel/niet ondersteunen
 * device lab

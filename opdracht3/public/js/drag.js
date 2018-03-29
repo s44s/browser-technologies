@@ -1,4 +1,4 @@
-if('draggable' in document.createElement('span')){
+if('draggable' in document.createElement('span') && "files" in DataTransfer.prototype){
 	function allowDrop(ev) {
 	    ev.preventDefault();
 	}
