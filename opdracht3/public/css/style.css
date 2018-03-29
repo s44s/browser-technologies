@@ -76,6 +76,7 @@ img {
 	padding: 0;
 	cursor: move;
 	user-drag: none;
+	-webkit-user-drag: none;
 	user-select: none;
 	-moz-user-select: none;
 	-webkit-user-drag: none;
@@ -86,6 +87,7 @@ img {
 label {
 	cursor: move;
 	user-drag: none;
+	-webkit-user-drag: none;
 	user-select: none;
 	-moz-user-select: none;
 	-webkit-user-drag: none;
