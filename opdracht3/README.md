@@ -82,7 +82,16 @@ Na al deze veranderingen werkte het prima op:
 - [x] Chrome
 - [x] Safari
 - [x] Firefox
-- [x] IE 10 & IE9
+
+Voor IE werd de volgende regel niet ondersteund:
+```javascript
+ev.dataTransfer.setData("value", ev.target.firstElementChild.value);
+```
+
+Caniuse gaf hier het volgende overaan:
+> Partial support refers to limited supported formats for dataTransfer.setData/getData.
+
+Ik heb hiervoor een extra feature detection geschreven.
 
 
 *	welke browser de feature(s) wel/niet ondersteunen
