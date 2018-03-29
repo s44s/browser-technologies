@@ -102,4 +102,6 @@ Caniuse gaf hier het volgende overaan:
 
 Ik heb hiervoor een extra feature detection geschreven. Helaas bleek deze ook niet te werken. Hij vindt nog steeds .setData maar hij werkt niet zoals hij zou moeten werken.
 
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht3/public/images/ie10.png "Schets")
+
 ## Accessibility
