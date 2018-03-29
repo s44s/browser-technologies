@@ -79,6 +79,8 @@ aside {
 ### forEach
 De `forEach()` function wordt niet ondersteunt op IE10. Ik heb deze daarom omgeschreven naar een for loop. Zo werkt hij op meer browsers.
 
+### Albert Heijn api
+In eerste instantie wilde ik proberen de producten binnen te halen met een API van een supermarkt. Ik kwam een API tegen van [Albert Heijn](https://www.npmjs.com/package/albert-heijn). Helaas bleek deze niet goed gedocumenteerd te zijn en kon ik niet alle producten ophalen. Dit heb ik voor nu handmatig gedaan.
 
 ### Drag and drop
 Drag and drop wordt nog niet overal goed ondersteund.
