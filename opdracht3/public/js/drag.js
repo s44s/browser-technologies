@@ -4,11 +4,12 @@ if('draggable' in document.createElement('span')){
 	}
 
 	function drag(ev) {
-		if(ev.target.childNodes[1].checked == false){
-			ev.dataTransfer.setData("value", ev.target.childNodes[1].value);
-			ev.target.childNodes[1].checked = true;
+		if(ev.target.firstElementChild.checked == false){
+			console.log(ev.target.firstElementChild)
+			ev.dataTransfer.setData("value", ev.target.firstElementChild.value);
+			ev.target.firstElementChild.checked = true;
 		} else {
-			ev.target.childNodes[1].checked = false;
+			ev.target.firstElementChild.checked = false;
 		}
 	}
 
