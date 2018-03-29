@@ -4,6 +4,8 @@ if('draggable' in document.createElement('span')){
 	}
 
 	function drag(ev) {
+		console.log(ev.target)
+
 		if(ev.target.firstElementChild.checked == false){
 			console.log(ev.target.firstElementChild)
 			ev.dataTransfer.setData("value", ev.target.firstElementChild.value);
