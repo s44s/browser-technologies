@@ -9,7 +9,7 @@ if('draggable' in document.createElement('span') && "setData" in DataTransfer.pr
 
 		if(ev.target.firstElementChild.checked == false || ev.target.parentElement.parentElement.firstElementChild.checked == false){
 			console.log(ev.target.firstElementChild)
-			ev.dataTransfer.setData("arguments", ev.target.firstElementChild.value);
+			ev.dataTransfer.setData("value", ev.target.firstElementChild.value);
 			ev.target.firstElementChild.checked = true;
 		} else {
 			ev.target.firstElementChild.checked = false;
@@ -18,7 +18,7 @@ if('draggable' in document.createElement('span') && "setData" in DataTransfer.pr
 
 	function drop(ev) {
 	  ev.preventDefault();
-	  var data = ev.dataTransfer.getData("arguments");
+	  var data = ev.dataTransfer.getData("value");
 
 		if (!data) {
 			console.log('leeg')

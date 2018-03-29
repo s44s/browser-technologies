@@ -10,15 +10,24 @@ Voor de eindopdracht heb ik gekozen om een applicatie te maken om boodschappen t
 De core functionaliteit is een lijst met boodschappen die je kunt selecteren en vervolgens komen die items in je boodschappenlijstje te staan. De demo is server-side opgebouwd, zodat het formulier ook blijft werken zonder javascript.
 
 ## Gelaagd werken
+Om elke browser op zijn minst de core functionaliteit te geven en de nieuwste browsers de vette dingen te bieden, heb ik in drie lagen gewerkt.
 
-//pattern prime
-![alt text](https://github.com/s44s/performance-matters-server-side/blob/master/public/images/serviceworker-offline-page.png "Schets")
+### Eerste laag
+Deze laag bestaat alleen uit HTML en CSS. Het is opgebouwd uit een formulier met checkboxes die aangevinkt kunnen worden en door op de submit te klikken, worden deze verstuurd naar het boodschappenlijstje. Dit zou altijd moeten werken omdat het op de server draait.
+
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht3/public/images/laag1.jpg "Schets")
+
+### Tweede laag
+In de tweede laag is javascript wel enabled en verdwijnt de submit knop. Vanaf nu kan de gebruiker producten selecteren en komen deze direct in het boodschappenlijstje te staan. Wanneer een product geselecteerd is, wordt het blokje transparanter. Wanneer je op een al gekozen product klikt, verdwijnt hij uit het boodschappenlijstje.
+
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht3/public/images/laag2.jpg "Schets")
+
+### Derde laag
+In de laatste laag is het ook mogelijk om te door middel van drag en drop de items in het boodschappenlijstje te plaatsen.
+
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht3/public/images/laag3.jpg "Schets")
 
 ## Enhanced feature(s)
-* functionaliteit
-* toegankelijkheid
-* (browser) ondersteuning.
-
 Feature(s):
 - [x] server-side form (Node.js)
 - [x] drag and drop
@@ -91,10 +100,6 @@ ev.dataTransfer.setData("value", ev.target.firstElementChild.value);
 Caniuse gaf hier het volgende overaan:
 > Partial support refers to limited supported formats for dataTransfer.setData/getData.
 
-Ik heb hiervoor een extra feature detection geschreven.
-
-
-*	welke browser de feature(s) wel/niet ondersteunen
-* device lab
+Ik heb hiervoor een extra feature detection geschreven. Helaas bleek deze ook niet te werken. Hij vindt nog steeds .setData maar hij werkt niet zoals hij zou moeten werken.
 
 ## Accessibility
