@@ -81,8 +81,14 @@ input[type=checkbox]:checked + label img{
 	opacity: 0.5;
 }
 
-input[type=checkbox]:focus + label img{
-	opacity: 0.5;
+section:focus-within {
+	box-shadow: 0 10px 10px #777;
+}
+
+@supports not(section:focus-within) {
+	input[type=checkbox]:focus + label img {
+		opacity: 0.5;
+	}
 }
 
 button {
