@@ -32,6 +32,9 @@ Feature(s):
 - [x] server-side form (Node.js)
 - [x] drag and drop
 - [x] realtime toevoegen/verwijderen van boodschappen
+- [x] responsive
+
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht3/public/images/iphone66.jpg "Schets")
 
 To Do:
 - [] AH api koppelen om alle mogelijke proucten in te laden
@@ -105,6 +108,7 @@ Caniuse gaf hier het volgende overaan:
 Ik heb hiervoor een extra feature detection geschreven. Helaas bleek deze ook niet te werken. Hij vindt nog steeds .setData maar hij werkt niet zoals hij zou moeten werken.
 
 ![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht3/public/images/ie10.png "Schets")
+
 
 ## Accessibility
 Tijdens de weekly nerd van 28 maart, Schiphol Group, werd er een presentatie gegeven door Tom. Tom was blind en hij vertelde ons over zijn beleving op het internet. Wat bleek is dat Tom het erg fijn vindt om een stukje context van de site mee te krijgen. Daarom heb ik een stukje tekst met uitleg toegevoegd wat deze website iemand kan bieden.
