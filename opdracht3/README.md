@@ -108,3 +108,7 @@ Ik heb hiervoor een extra feature detection geschreven. Helaas bleek deze ook ni
 Tijdens de weekly nerd van 28 maart, Schiphol Group, werd er een presentatie gegeven door Tom. Tom was blind en hij vertelde ons over zijn beleving op het internet. Wat bleek is dat Tom het erg fijn vindt om een stukje context van de site mee te krijgen. Daarom heb ik een stukje tekst met uitleg toegevoegd wat deze website iemand kan bieden.
 
 Verder is de site ook toegankelijk gemaakt voor mensen die alleen een keyboard (kunnen) gebruiken. Door middel van tab kunnen zij door de producten geen gaan en wanneer zij op spatie klikken, worden de item toegevoegd aan het boodschappen boodschappenlijstje
+
+Ook heb ik het getest met een screenreader. Dit gaat heel goed. Wanneer je over een product gaat wordt alleen de label opgenoemd wat in dit geval de naam van het soort product is. De gebruiker krijgt te horen welk product het is en dat ze door middel van een checkbox het product kunnen selecteren.
+
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht3/public/images/screenreader.png "Schets")
