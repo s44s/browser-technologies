@@ -4,6 +4,9 @@
 
 Website live on: https://browsertech.suustenvoorde.me/
 
+![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht3/public/images/app.png "Schets")
+
+
 ## Core functionaliteit
 Voor de eindopdracht heb ik gekozen om een applicatie te maken om boodschappen te selecteren die vervolgens in je winkelmandje verschijnen. Mijn interpretatie van dit concept is dat een gebruiker op een site zit met oneindig veel boodschappen en daarvan alleen de boodschappen wilt selecteren die hij of zij wilt gaan gebruiken om tosti's te maken. Dit met het idee dat vervolgens de boodschappen besteld kunnen worden en thuis bezorgd. Dit concept hebt ik uitgewerkt tot een werkende demo.
 
