@@ -111,6 +111,20 @@ Ik heb hiervoor een extra feature detection geschreven. Helaas bleek deze ook ni
 
 ![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht3/public/images/ie10.png "Schets")
 
+### CSS @supports
+Waar ik tijdens het testen achter kwam is dat niet alle browsers `:focus-within` ondersteunen. Dit wilde ik oplossen met een `@supports` in CSS. Dit kan alleen niet. Je kunt geen psuedoclasses checken in supports. Het lijkt er op dat ze alleen rules checken en geen selectors.
+
+```
+@supports (:focus-within) {
+	section:focus-within {
+		box-shadow: 0 10px 10px #777;
+	}
+
+	input[type=checkbox]:focus + label img {
+		opacity: 1;
+	}
+}
+```
 
 ## Accessibility
 Tijdens de weekly nerd van 28 maart, Schiphol Group, werd er een presentatie gegeven door Tom. Tom was blind en hij vertelde ons over zijn beleving op het internet. Wat bleek is dat Tom het erg fijn vindt om een stukje context van de site mee te krijgen. Daarom heb ik een stukje tekst met uitleg toegevoegd wat deze website iemand kan bieden.
