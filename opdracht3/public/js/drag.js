@@ -1,5 +1,5 @@
-console.log(dataTransfer.prototype)
-if('draggable' in document.createElement('span') && "setData" in dataTransfer.prototype){
+console.log("setData" in DataTransfer.prototype)
+if('draggable' in document.createElement('span') && "setData" in DataTransfer.prototype){
 	function allowDrop(ev) {
 	    ev.preventDefault();
 	}
