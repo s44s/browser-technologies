@@ -45,13 +45,11 @@ if('querySelector' in document && 'querySelectorAll' in document) {
 				var ul = document.querySelector('ul');
 				var self = el.target.value
 
-				li.forEach(function(el){
-					// console.log(self)
-					if(self == el.innerHTML) {
-						console.log(el)
-						el.parentNode.removeChild(el)
+				for(var i = 0; i < li.length; i++) {
+					if(self == li[i].innerHTML) {
+						li[i].parentNode.removeChild(li[i])
 					}
-				})
+				}
 			}
 		})
 	}
