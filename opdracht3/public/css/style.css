@@ -65,6 +65,10 @@ input[type=checkbox]:checked + label img{
 	opacity: 0.5;
 }
 
+input[type=checkbox]:focus + label img{
+	opacity: 0.5;
+}
+
 button {
 	display: block;
 	margin-top: 5%;

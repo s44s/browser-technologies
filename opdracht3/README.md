@@ -105,3 +105,6 @@ Ik heb hiervoor een extra feature detection geschreven. Helaas bleek deze ook ni
 ![alt text](https://github.com/s44s/browser-technologies/blob/master/opdracht3/public/images/ie10.png "Schets")
 
 ## Accessibility
+Tijdens de weekly nerd van 28 maart, Schiphol Group, werd er een presentatie gegeven door Tom. Tom was blind en hij vertelde ons over zijn beleving op het internet. Wat bleek is dat Tom het erg fijn vindt om een stukje context van de site mee te krijgen. Daarom heb ik een stukje tekst met uitleg toegevoegd wat deze website iemand kan bieden.
+
+Verder is de site ook toegankelijk gemaakt voor mensen die alleen een keyboard (kunnen) gebruiken. Door middel van tab kunnen zij door de producten geen gaan en wanneer zij op spatie klikken, worden de item toegevoegd aan het boodschappen boodschappenlijstje
