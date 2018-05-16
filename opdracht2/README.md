@@ -102,3 +102,18 @@ Ik heb op alle mogelijke browsers getest. Safari, Chrome, Firefox en Opera Neon.
 [css3test.com](css3test.com)
 
 [kangax.github.io/compat-table/es6/](kangax.github.io/compat-table/es6/)
+
+***
+
+### Feedback 23 maart
+Voor week twee kregen we de opdracht om feature detection toe te passen op twee componenten. Ik had in eerste instatie begrepen dat dit ging om gelaagd werken, semantische HTML om mee te starten, CSS met feature detection en als laatste laag Javascript om het plezieriger te maken met daarbij rekening houdend met feature detection.
+
+In lagen werken had ik goed gedaan. De feature detection voor Javascript had ik als volgt gedaan:
+
+```javascript
+if('querySelector' in document && 'querySelectorAll' in document && 'addEventListener' in window)
+```
+
+Ik checkte of deze functies in Javascript ondersteund werden, zo niet, dan werd er geen Javascript uitgevoerd (dacht ik). Wat echter nu nog steeds fout zou kunnen gaan is dat hij halverwege het Javascript bestaand er mee kapt.
+
+Om dit netter op te lossen heb ik meerdere feature detections toegevoegd, waardoor hij bij functies die niet overal toegepast worden, telkens checkt of de browser dit ondersteund.
